@@ -1,0 +1,23 @@
+h1{color:crimson;
+text-align: center}
+h2{color:aqua}
+
+body{
+    background-color: darkgrey;
+    
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: forestgreen;
+    margin: auto
+    
+}
+
+#circle{
+    
+    color:darkslategray;
+    font-size: 40px;
+}
+

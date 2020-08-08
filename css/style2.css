@@ -1,0 +1,107 @@
+html{
+    
+    
+    font-family:"Times New Roman",serif,sans-serif;  /*if font has more than 1 word then it is put under double quotes/*
+    
+}
+
+
+
+body{
+   /* background-image:url(zebra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover*/
+    
+    
+    background-color: #444;
+    text-align:center
+    
+}
+
+
+
+.container {
+    background:linear-gradient(to left,aqua,red);
+    box-shadow: 3px 5px 3px black;
+    
+}
+
+
+
+/*body h1{
+    
+    color:blue; }*/
+
+h1{        /*id and classes can be grouped with headers*/
+    
+    color:#ffffff;
+    text-shadow: 2px 2px 5px black;
+    line-height: 1ren;
+    font-family: 'Liu Jian Mao Cao',serif;
+}
+
+
+h2{
+    
+    font-size:30px;
+    font-style: italic; /*the secondly defined here h2 get precedence and have follow these propperty because of precedence*/
+    font-family: 'Lobster',serif;
+}
+
+
+h3{font-family: 'Oswald,serif;'}
+
+
+
+
+.formatting{
+    
+    font-size: 20px;
+    line-height: 2em;
+    color: white;
+    
+}
+
+
+
+a{
+    
+    text-decoration:none;
+    font-size: 20px;
+    color:aqua;
+    letter-spacing: 3px;
+    word-spacing: 30px;
+    text-transform:uppercase;
+    
+}
+
+
+
+
+
+
+
+/*html h1{    
+    
+    color:green;  /* the lower given attributes are the winner that's why all the h1 are green in color not white and html has higher precedence than body html+h1=1+1=2*/
+}*/
+
+
+
+
+.borderImg{
+    
+    
+   border: 10px dotted red;
+    
+}
+
+ul li{
+    
+    color:white;
+    font-size: 20px;
+    
+}
+
+ul>li{color:yellow}  /*child of ul will be coloured yellow*/
+
